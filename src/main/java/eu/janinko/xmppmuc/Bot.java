@@ -10,7 +10,7 @@ public class Bot {
 	private static Logger logger = Logger.getLogger(Bot.class);
 	
 	public Bot(){
-		commands = new Commands(this);
+		commnds = new Commands(this);
 		connection = new XmppConnection(commands);
 	}
 	
