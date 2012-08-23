@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <property name="tests.resources.dir" value="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../src/test/resources"/>
+  <property name="tests.output.dir" value="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target"/>
+  <ant antfile="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../src/test/scripts/basic-integration-build.xml">
+    <target name="build-basic-integration"/>
+  </ant>
+</target>
+</project>

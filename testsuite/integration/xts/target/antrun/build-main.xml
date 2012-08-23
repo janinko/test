@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <ant antfile="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/xts/../src/test/scripts/xts-build.xml">
+    <target name="build-xts"/>
+  </ant>
+</target>
+</project>

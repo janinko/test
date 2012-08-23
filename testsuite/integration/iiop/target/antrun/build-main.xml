@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <ant antfile="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/iiop/../src/test/scripts/iiop-build.xml">
+    <property name="node0" value="127.0.0.1"/>
+    <property name="node1" value="127.0.0.1"/>
+    <target name="build-iiop"/>
+  </ant>
+</target>
+</project>

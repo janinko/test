@@ -1,0 +1,77 @@
+16:43:01,189 INFO  [org.jboss.as.arquillian.container.managed.ManagedDeployableContainer] (main) Starting container with: [/usr/java/jdk1.7.0_05/bin/../bin/java, -Xmx512m, -XX:MaxPermSize=256m, -Djboss.dist=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT, -Djava.net.preferIPv4Stack=true, -Djava.net.preferIPv6Addresses=false, -Dts.timeout.factor=100, -Dnode0=127.0.0.1, -Dnode1=127.0.0.1, -Dmcast=230.0.0.4, -Djbossas.ts.submodule.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic, -Djbossas.ts.integ.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/.., -Djbossas.ts.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../.., -Djbossas.project.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../.., -Djboss.dist=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT, -Djboss.inst=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas, -Dtest.bind.address=127.0.0.1, -ea, -Djboss.home.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas, -Dorg.jboss.boot.log.file=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/log/boot.log, -Dlogging.configuration=file:/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/configuration/logging.properties, -Djboss.bundles.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/bundles, -jar, /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/jboss-modules.jar, -mp, /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/modules, -jaxpmodule, javax.xml.jaxp-provider, org.jboss.as.standalone, -server-config, standalone-full.xml]
+16:43:01,279 INFO  [org.xnio] (main) XNIO Version 3.0.5.GA
+16:43:01,290 INFO  [org.xnio.nio] (main) XNIO NIO Implementation Version 3.0.5.GA
+16:43:01,308 INFO  [org.jboss.remoting] (main) JBoss Remoting version 3.2.8.GA
+16:43:01,693 INFO  [org.jboss.modules] JBoss Modules version 1.1.2.GA
+16:43:01,943 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+16:43:02,017 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.2.0.Alpha1-SNAPSHOT "Steropes" starting
+16:43:03,521 INFO  [org.jboss.security.vault.SecurityVaultFactory] Getting Security Vault with implementation of org.picketbox.plugins.vault.PicketBoxSecurityVault
+16:43:03,764 INFO  [org.picketbox.plugins.vault.PicketBoxSecurityVault] Default Security Vault Implementation Initialized and Ready
+16:43:03,778 INFO  [org.xnio] XNIO Version 3.0.5.GA
+16:43:03,781 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+16:43:03,786 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.5.GA
+16:43:03,793 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.8.GA
+16:43:03,815 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+[0m16:43:03,819 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 33) JBAS016200: Activating ConfigAdmin Subsystem
+[0m[0m16:43:03,835 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) JBAS010280: Activating Infinispan subsystem.
+[0m[0m16:43:03,837 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 39) JBAS016300: Activating JacORB Subsystem
+[0m[0m16:43:03,920 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.11.Final)
+[0m[0m16:43:03,953 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 51) JBAS011906: Activating OSGi Subsystem
+[0m[0m16:43:03,954 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 56) JBAS013171: Activating Security Subsystem
+[0m[0m16:43:03,964 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) JBAS011800: Activating Naming Subsystem
+[0m[0m16:43:04,130 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) JBAS015537: Activating WebServices Extension
+[0m[0m16:43:04,136 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.9.Final
+[0m[0m16:43:04,168 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+[0m[0m16:43:04,175 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+[0m[0m16:43:04,192 INFO  [org.jboss.jaxr] (MSC service thread 1-3) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+[0m[0m16:43:04,284 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m16:43:04,463 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-6) JBoss Web Services - Stack CXF Server 4.1.0.Beta1
+[0m[0m16:43:04,728 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Starting Coyote HTTP/1.1 on http-localhost.localdomain/127.0.0.1:8080
+[0m[0m16:43:04,851 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data/messagingjournal,bindingsDirectory=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data/messagingbindings,largeMessagesDirectory=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data/messaginglargemessages,pagingDirectory=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data/messagingpaging)
+[0m[0m16:43:04,859 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) Waiting to obtain live lock
+[0m[0m16:43:04,940 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+[0m[0m16:43:04,945 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-6) Using AIO Journal
+[0m[0m16:43:05,175 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/MaskedDS]
+[0m[0m16:43:05,178 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[0m16:43:05,227 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-6) Waiting to obtain live lock
+[0m[0m16:43:05,229 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-6) Live Server Obtained live lock
+[0m[0m16:43:05,307 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+[0m[0m16:43:05,351 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/deployments
+[0m[0m16:43:05,368 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+[0m[0m16:43:05,369 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:4447
+[0m[0m16:43:06,275 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-6) Started Netty Acceptor version 3.2.5.Final-a96d88c 127.0.0.1:5455 for CORE protocol
+[0m[0m16:43:06,277 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-6) Started Netty Acceptor version 3.2.5.Final-a96d88c 127.0.0.1:5445 for CORE protocol
+[0m[0m16:43:06,280 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) Server is now live
+[0m[0m16:43:06,284 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) HornetQ Server version 2.2.18.Final (HQ_2_2_18_FINAL, 122) [88773390-dd79-11e1-82af-9d827fbb53e6]) started
+[0m[0m16:43:06,324 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+[0m[0m16:43:06,328 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+[0m[0m16:43:06,385 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+[0m[0m16:43:06,433 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-2) HornetQ resource adaptor started
+[0m[0m16:43:06,434 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+[0m[0m16:43:06,437 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-3) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+[0m[0m16:43:06,590 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m16:43:06,591 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+[0m[0m16:43:06,592 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.2.0.Alpha1-SNAPSHOT "Steropes" started in 5287ms - Started 168 of 250 services (80 services are passive or on-demand)
+[0m[0m16:43:09,054 INFO  [stdout] (management-handler-thread - 1) Initializing TestExtension
+[0m[31m16:43:11,701 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014612: Operation ("remove") failed - address: ([("extension" => "extensionremovemodule")]): java.lang.IllegalStateException: JBAS014810: An attempt was made to unregister extension extensionremovemodule which still has subsystem test-extension registered
+	at org.jboss.as.controller.extension.ExtensionRegistry.removeExtension(ExtensionRegistry.java:289) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.extension.ExtensionRemoveHandler.performRemove(ExtensionRemoveHandler.java:55) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractRemoveStepHandler.execute(AbstractRemoveStepHandler.java:45) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:397) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:284) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.completeStep(AbstractOperationContext.java:211) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler.execute(ModelControllerImpl.java:473) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:397) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:284) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.AbstractOperationContext.completeStep(AbstractOperationContext.java:211) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:126) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:111) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:139) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:108) [jboss-as-controller-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$2$1.doExecute(AbstractMessageHandler.java:296) [jboss-as-protocol-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:518) [jboss-as-protocol-7.2.0.Alpha1-SNAPSHOT.jar:7.2.0.Alpha1-SNAPSHOT]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0_05]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0_05]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0_05]
+	at org.jboss.threads.JBossThread.run(JBossThread.java:122) [jboss-threads-2.0.0.GA.jar:2.0.0.GA]
+[0m
