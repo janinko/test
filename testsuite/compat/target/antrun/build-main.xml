@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <property name="tests.resources.dir" value="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/compat/src/test/resources"/>
+  <property name="tests.output.dir" value="/home/jbrazdil/rht/jbossas/jboss-as/testsuite/compat/target"/>
+  <ant antfile="src/test/scripts/build-jars.xml">
+    <target name="copy-jars"/>
+  </ant>
+</target>
+</project>

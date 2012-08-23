@@ -1,0 +1,123 @@
+Created by: org.apache.maven.plugins.help.SystemMojo
+Created on: Fri Aug 03 16:43:41 CEST 2012
+
+
+===============================================================================
+========================= Platform Properties Details =========================
+===============================================================================
+
+===============================================================================
+System Properties
+===============================================================================
+
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=/usr/java/jdk1.7.0_05/jre/lib/amd64
+java.vm.version=23.1-b03
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+guice.disable.misplaced.annotation.check=true
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=CZ
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+test=*ExtensionRemoveTestCase*
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/jbrazdil/rht/jbossas/jboss-as
+java.runtime.version=1.7.0_05-b06
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/usr/java/jdk1.7.0_05/jre/lib/endorsed
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+classworlds.conf=/usr/share/maven/bin/m2.conf
+sun.jnu.encoding=UTF-8
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=3.4.6-2.fc17.x86_64
+user.home=/home/jbrazdil
+user.timezone=Europe/Bratislava
+java.awt.printerjob=sun.print.PSPrinterJob
+file.encoding=UTF-8
+java.specification.version=1.7
+java.class.path=/usr/share/maven/boot/plexus-classworlds.jar
+user.name=jbrazdil
+allTests=true
+java.vm.specification.version=1.7
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -rf :jboss-as-ts-integ-basic -DallTests -Dtest=*ExtensionRemoveTestCase*
+java.home=/usr/java/jdk1.7.0_05/jre
+sun.arch.data.model=64
+user.language=cs
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.7.0_05
+securerandom.source=file:/dev/./urandom
+java.ext.dirs=/usr/java/jdk1.7.0_05/jre/lib/ext:/usr/java/packages/lib/ext
+sun.boot.class.path=/usr/java/jdk1.7.0_05/jre/lib/resources.jar:/usr/java/jdk1.7.0_05/jre/lib/rt.jar:/usr/java/jdk1.7.0_05/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_05/jre/lib/jsse.jar:/usr/java/jdk1.7.0_05/jre/lib/jce.jar:/usr/java/jdk1.7.0_05/jre/lib/charsets.jar:/usr/java/jdk1.7.0_05/jre/lib/jfr.jar:/usr/java/jdk1.7.0_05/jre/classes
+java.vendor=Oracle Corporation
+maven.home=/usr/share/maven
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.desktop=gnome
+sun.cpu.isalist=
+
+===============================================================================
+Environment Variables
+===============================================================================
+
+DISPLAY=:0
+SSH_AUTH_SOCK=/run/user/jbrazdil/keyring-lo6ymx/ssh
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+QT_IM_MODULE=xim
+XDG_RUNTIME_DIR=/run/user/jbrazdil
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/jbrazdil/.local/bin:/home/jbrazdil/bin
+LOGNAME=jbrazdil
+COLORTERM=gnome-terminal
+SHLVL=3
+HISTSIZE=1000000
+XAUTHORITY=/var/run/gdm/auth-for-jbrazdil-rduZAq/database
+GJS_DEBUG_OUTPUT=stderr
+DESKTOP_SESSION=gnome
+SHELL=/bin/bash
+QT_GRAPHICSSYSTEM_CHECKED=1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+XMODIFIERS=@im=none
+HOSTNAME=janinko-redhat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/1120,unix/unix:/tmp/.ICE-unix/1120
+WINDOWID=48234501
+XDG_SESSION_ID=2
+MAIL=/var/spool/mail/jbrazdil
+IMSETTINGS_MODULE=none
+LANG=cs_CZ.utf8
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:*.pdf=00;33:*.ps=00;33:*.ps.gz=00;33:*.txt=00;33:*.patch=00;33:*.diff=00;33:*.log=00;33:*.tex=00;33:*.xls=00;33:*.xlsx=00;33:*.ppt=00;33:*.pptx=00;33:*.rtf=00;33:*.doc=00;33:*.docx=00;33:*.odt=00;33:*.ods=00;33:*.odp=00;33:*.xml=00;33:*.epub=00;33:*.abw=00;33:*.htm=00;33:*.html=00;33:*.shtml=00;33:*.wpd=00;33:
+M2_HOME=/usr/share/maven
+HISTCONTROL=ignoreboth
+GPG_AGENT_INFO=/run/user/jbrazdil/keyring-lo6ymx/gpg:0:1
+WINDOWPATH=1
+HOME=/home/jbrazdil
+GNOME_KEYRING_PID=1113
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-QS3s0NROI0,guid=c1bed25d670317f47a654c6d00000091
+PWD=/home/jbrazdil/rht/jbossas/jboss-as
+USERNAME=jbrazdil
+XDG_SEAT=seat0
+goals=clean compile test install package deploy site eclipse:eclipse idea:idea assembly:assembly plexus:app plexus:bundle-application plexus:bundle-runtime plexus:descriptor plexus:runtime plexus:service dependency:analyze dependency:analyze-dep-mgt dependency:analyze-only dependency:analyze-report dependency:analyze-duplicate dependency:build-classpath dependency:copy dependency:copy-dependencies dependency:get dependency:go-offline dependency:list dependency:properties dependency:purge-local-repository dependency:resolve dependency:resolve-plugins dependency:sources dependency:tree dependency:unpack dependency:unpack-dependencies
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+GDMSESSION=gnome
+USER=jbrazdil
+JAVA_HOME=/usr/java/jdk1.7.0_05/bin/..
+TERM=xterm
+GDM_LANG=cs_CZ.utf8
+GNOME_KEYRING_CONTROL=/run/user/jbrazdil/keyring-lo6ymx
+XDG_VTNR=1

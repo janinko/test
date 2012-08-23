@@ -1,0 +1,125 @@
+16:43:01,693 INFO  [org.jboss.modules] JBoss Modules version 1.1.2.GA
+16:43:01,943 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+16:43:02,017 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.2.0.Alpha1-SNAPSHOT "Steropes" starting
+16:43:02,024 DEBUG [org.jboss.as.config] Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/java/jdk1.7.0_05/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.7.0_05/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.7.0_05/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.net.preferIPv6Addresses = false
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_05-b06
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_05
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.1-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/bundles
+	jboss.dist = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT
+	jboss.home.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas
+	jboss.host.name = janinko-redhat
+	jboss.inst = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas
+	jboss.modules.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/modules
+	jboss.node.name = janinko-redhat
+	jboss.qualified.host.name = janinko-redhat
+	jboss.server.base.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone
+	jboss.server.config.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/configuration
+	jboss.server.data.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data
+	jboss.server.deploy.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/data/content
+	jboss.server.log.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/log
+	jboss.server.name = janinko-redhat
+	jboss.server.temp.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/tmp
+	jbossas.project.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../..
+	jbossas.ts.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../..
+	jbossas.ts.integ.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/..
+	jbossas.ts.submodule.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic
+	line.separator = 
+
+	logging.configuration = file:/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/configuration/logging.properties
+	mcast = 230.0.0.4
+	module.path = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/modules
+	node0 = 127.0.0.1
+	node1 = 127.0.0.1
+	org.jboss.boot.log.file = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/log/boot.log
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.4.6-2.fc17.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.7.0_05/jre/lib/resources.jar:/usr/java/jdk1.7.0_05/jre/lib/rt.jar:/usr/java/jdk1.7.0_05/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_05/jre/lib/jsse.jar:/usr/java/jdk1.7.0_05/jre/lib/jce.jar:/usr/java/jdk1.7.0_05/jre/lib/charsets.jar:/usr/java/jdk1.7.0_05/jre/lib/jfr.jar:/usr/java/jdk1.7.0_05/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.7.0_05/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/jboss-modules.jar -mp /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	test.bind.address = 127.0.0.1
+	ts.timeout.factor = 100
+	user.country = CZ
+	user.dir = /home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/workdir
+	user.home = /home/jbrazdil
+	user.language = cs
+	user.name = jbrazdil
+	user.timezone = Europe/Bratislava
+16:43:02,028 DEBUG [org.jboss.as.config] VM Arguments: -Xmx512m -XX:MaxPermSize=256m -Djboss.dist=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv6Addresses=false -Dts.timeout.factor=100 -Dnode0=127.0.0.1 -Dnode1=127.0.0.1 -Dmcast=230.0.0.4 -Djbossas.ts.submodule.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic -Djbossas.ts.integ.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/.. -Djbossas.ts.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../.. -Djbossas.project.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../.. -Djboss.dist=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT -Djboss.inst=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas -Dtest.bind.address=127.0.0.1 -ea -Djboss.home.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas -Dorg.jboss.boot.log.file=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/log/boot.log -Dlogging.configuration=file:/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/target/jbossas/standalone/configuration/logging.properties -Djboss.bundles.dir=/home/jbrazdil/rht/jbossas/jboss-as/testsuite/integration/basic/../../../build/target/jboss-as-7.2.0.Alpha1-SNAPSHOT/bundles 
+16:43:03,521 INFO  [org.jboss.security.vault.SecurityVaultFactory] Getting Security Vault with implementation of org.picketbox.plugins.vault.PicketBoxSecurityVault
+16:43:03,764 INFO  [org.picketbox.plugins.vault.PicketBoxSecurityVault] Default Security Vault Implementation Initialized and Ready
+16:43:03,778 INFO  [org.xnio] XNIO Version 3.0.5.GA
+16:43:03,781 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+16:43:03,786 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.5.GA
+16:43:03,793 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.8.GA
+16:43:03,815 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+16:43:14,185 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+16:43:14,187 INFO  [org.jboss.jaxr] JBAS014002: UnBinding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+16:43:14,200 INFO  [org.jboss.as.connector.subsystems.datasources] JBAS010409: Unbound data source [java:jboss/datasources/MaskedDS]
+16:43:14,210 INFO  [org.apache.catalina.core.StandardContext] Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+16:43:14,214 INFO  [org.hornetq.ra.HornetQResourceAdapter] HornetQ resource adapter stopped
+16:43:14,224 INFO  [org.jboss.as.connector.subsystems.datasources] JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+16:43:14,231 INFO  [org.jboss.as.messaging] JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+16:43:14,256 INFO  [jacorb.poa] POA RootPOA destroyed
+16:43:14,256 INFO  [jacorb.poa] POA Naming destroyed
+16:43:14,256 INFO  [jacorb.poa] POA IRPOA destroyed
+16:43:14,258 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+16:43:14,260 INFO  [jacorb.orb] prepare ORB for shutdown...
+16:43:14,266 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+16:43:14,279 INFO  [jacorb.orb] ORB going down...
+16:43:14,282 INFO  [jacorb.orb] ORB shutdown complete
+16:43:14,282 INFO  [jacorb.orb.iiop] Listener exited
+16:43:14,284 INFO  [jacorb.orb] ORB run, exit
+16:43:14,390 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] HornetQ Server version 2.2.18.Final (HQ_2_2_18_FINAL, 122) [88773390-dd79-11e1-82af-9d827fbb53e6] stopped
+16:43:14,410 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.2.0.Alpha1-SNAPSHOT "Steropes" stopped in 188ms

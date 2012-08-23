@@ -1,0 +1,93 @@
+Created by: org.apache.maven.plugins.help.ActiveProfilesMojo
+Created on: Fri Aug 03 16:42:31 CEST 2012
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-basic:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - basic.integration.tests.profile (source: pom)
+ - onlyOneSurefireExecution.basic.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-clust:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - clustering.integration.tests.profile (source: pom)
+ - ts.clust.prevent-2nd-run-on-Dtest.profile (source: pom)
+ - ts.clust.jdbc-cachestore.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-iiop:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - iiop.integration.tests.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-xts:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - xts.integration.tests.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-multinode:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - multinode.integration.tests.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-ts-integ-manualmode:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - manualmode.integration.tests.profile (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-testsuite-compat:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - default (source: pom)
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-testsuite-integration-domain:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-testsuite-benchmark:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - jenkins (source: settings.xml)
+
+
+
+Active Profiles for Project 'org.jboss.as:jboss-as-testsuite-stress:jar:7.2.0.Alpha1-SNAPSHOT': 
+
+The following profiles are active:
+
+ - jenkins (source: settings.xml)
+
+
