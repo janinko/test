@@ -1,2 +1,2 @@
 
-Author: janinko, janinko-test2 (c) 2012
+Author: janinko-test2 (c) 2012
